@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid class="ion-text-center" style="height: 100vh;" justify-content="center" align-items="center">
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <div tabindex="-1">
+        <form>
+          <ion-item>
+            <ion-input type="email"  label="Email"  labelPlacement="floating"  helperText="Enter a valid email from work"
+              errorText="Invalid email"  ngModel  email></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-input type="password"  label="Password"  labelPlacement="floating"></ion-input>
+          </ion-item>
+
+          <ion-button type="submit" expand="block">Login</ion-button>
+        </form>
+      </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

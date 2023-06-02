@@ -25,3 +25,7 @@
 #container a {
   text-decoration: none;
 }
+
+ion-menu {
+  z-index: 1; /* Pas de waarde aan indien nodig */
+}
